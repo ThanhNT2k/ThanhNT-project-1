@@ -53,7 +53,7 @@ int main(){
 					printf("Phuong trinh co 2 nghiem la: x1= %f va x2= %f",x1,x2);
 				}else{
 					//Neu delta = 0 thi co nghiem kep
-					printf("Phuong trinh co nghiem kep la: x= %f",x3);
+					printf("Phuong trinh co nghiem kep la: x= %f",x);
 				}
 			}
 		}
