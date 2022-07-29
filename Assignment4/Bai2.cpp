@@ -7,10 +7,14 @@ int main(){
 	
 	int c = 1;
 	
+	int max = 0;
+	
 	while(c<n){
 		if(c%2==0 && c%3==0){
-			printf("Cac so chia het cho 2 va 3 la: %d \n",c);
+			max = c;
+
 		}
 		c++;
 	}
+		printf("Cac so chia het cho 2 va 3 la: %d \n",max);
 }
